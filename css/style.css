@@ -1,15 +1,12 @@
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background: url('../Images/restaurant.jpg') no-repeat center center fixed;
+  background: url('../Images/DSCF0993.JPG') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
-h1, h2, h3, h4, h5, h6, .text-heading {
-  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
 
 h1 {
   font-size: 3.5rem;
@@ -17,8 +14,8 @@ h1 {
 
 .tagline-upper {
   font-size: 5rem;
-  font-weight: 700;
   line-height: 1;
+  margin-bottom: 0.3em;
 }
 
 .tagline-lower {
@@ -52,9 +49,8 @@ hr.divider {
 }
 
 .food {
-    border: solid 3px black;
     max-width: 200px;
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .insta_icon {
@@ -93,6 +89,5 @@ img:hover {
     background-color: rgba(255, 255, 255, 0.9);
     margin: auto;
     text-align: center;
-    max-width: 5em;
-    padding-top: 10px;
+    max-width: 900px;
 }
