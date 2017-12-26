@@ -1,0 +1,98 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background: url('../Images/restaurant.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.tagline-upper {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.tagline-lower {
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded {
+  letter-spacing: 2px;
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.9);
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.bg-faded {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider {
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.food {
+    border: solid 3px black;
+    max-width: 200px;
+    margin: 5px;
+}
+
+.insta_icon {
+    max-width: 30px;
+}
+
+#foodPics {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    max-width: 900px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img:hover {
+    opacity: 0.7;
+}
+
+.images {
+    float: left;
+}
+
+.main {
+    max-width: 800px;
+}
+
+.carousel-item{
+    max-width: 1000px;
+    text-align: center;
+    margin: auto;   
+}
+
+.header {
+    margin-top: 50px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: auto;
+    text-align: center;
+    max-width: 5em;
+    padding-top: 10px;
+}
